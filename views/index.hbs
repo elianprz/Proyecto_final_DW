@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- ENCABEZADO -->
+ {{> header }}
+    
+    <!-- SECCION 1 INFO -->
+    <section id="informacion-personal">
+        <div id="sidebar">
+            <div id="profile">
+                <img src="./imagenes/Jairo2.jpg" alt="Foto Elian">
+            </div>
+        </div>
+        <h1>Información Personal</h1>
+        <h3>Ingeniero en Sistemas de Información y Ciencias de la Computación. En este portafolio web podrá visualizar brevemente algunos de los proyectos que he realizado durante la carrera.</h3>
+    </section>
+
+    <!-- SECCION 2 HABILIDADES -->
+    <section id="habilidades">
+        <h1>Habilidades</h1>
+        <div class="skill">
+            <p>HTML 80%</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 80%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>JAVASCRIPT 75%</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>MATLAB 90%</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION 3 PORTAFOLIO -->
+    <section id="portafolio">
+        <h1>Portafolio</h1>
+        <div class="portfolio-item">
+            <a href="/proyecto1">
+                <img src="./imagenes/proy1matlab.png" alt="Proyecto 1">
+                <div class="portfolio-text">
+                    <h3>Proyecto 1 Brazo Robótico</h3>
+                    <p>Proyecto realizado con el lenguaje de MatLab, la cual trata sobre la simulacion de un brazo robotico con varias funcionalidades.</p>
+                </div>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="proyecto2">
+                <img src="./imagenes/proy2 compilador.jpg" alt="Proyecto 2">
+                <div class="portfolio-text">
+                    <h3>Proyecto 2 Compilador Léxico</h3>
+                    <p>Programa realizado con java, la cual trata de poder analizar los caracteres y pasarlo a tokens.</p>
+                </div>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="/proyecto3">
+                <img src="./imagenes/proy3vetarinaria.png" alt="Proyecto 3">
+                <div class="portfolio-text">
+                    <h3>Proyecto 3 Programa para una Veterinaria</h3>
+                    <p>Programa para registro realizado en C++, que da orden en pilas y colas</p>
+                </div>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="/proyecto4">
+                <img src="./imagenes/proy4 interbloqueo.jpg" alt="Proyecto 4">
+                <div class="portfolio-text">
+                    <h3>Proyecto 4 Programa Interbloqueo</h3>
+                    <p>Programa que permite realizar acciones a nuestro sistema operativo, realizado con C#</p>
+                </div>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="/proyecto5">
+                <img src="./imagenes/proy5 juegoAjedrez.jpg" alt="Proyecto 5">
+                <div class="portfolio-text">
+                    <h3>Proyecto 5 Juego de Ajedrez</h3>
+                    <p>Juego interactivo entre dos personas, realizado con Java.</p>
+                </div>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="/proyecto6">
+                <img src="./imagenes/proy6.jpg" alt="Proyecto 5">
+                <div class="portfolio-text">
+                    <h3>Proyecto 6 Cálculo MRU</h3>
+                    <p>Página interactiva, para poder hacer cálculos con MRU.</p>
+                </div>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="/proyecto7">
+                <img src="./imagenes/proy7.jpg" alt="Proyecto 5">
+                <div class="portfolio-text">
+                    <h3>Proyecto 7 Portafolio Ética</h3>
+                    <p>Página web, que describe todo el contenido visto en el curso Ética Profesional</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    
+    <!-- SECCION 4 CONTACTO -->
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <p>Mi correo electrónico es: <a href="mailto:elian@gmail.com">elian@gmail.com</a></p>
+        <p>Mi número telefónico es: <a href="tel:+54399128">Celular 54399128</a></p>
+    </section>
+
+ {{> footer }}
+
+</body>
+</html>

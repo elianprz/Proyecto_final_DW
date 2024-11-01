@@ -1,0 +1,96 @@
+/* proyectos.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-light-gray);
+    color: var(--color-dark-gray);
+    padding-bottom: 60px; /* Espacio para el footer */
+}
+
+/* styleproject.css */
+
+.btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: var(--color-orange);
+    color: var(--color-light-gray);
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn-home a {
+    color: var(--color-light-gray);
+    text-decoration: none;
+}
+
+.btn-home:hover {
+    background-color: var(--color-dark-gray);
+}
+
+
+header {
+    background-color: var(--color-steel-blue); /* Fondo del header */
+    color: var(--color-light-gray); /* Color del texto en el header */
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header nav {
+    background-color: var(--color-dark-gray); /* Fondo del menú de navegación */
+    padding: 10px 0;
+}
+
+header nav a {
+    color: var(--color-light-gray); /* Color del texto en los enlaces */
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+header nav a:hover {
+    background-color: var(--color-orange); /* Color de fondo al pasar el ratón por encima */
+    color: var(--color-light-gray);
+}
+
+section#proyecto {
+    padding: 20px;
+    margin: 10px;
+    background-color: var(--color-steel-blue);
+    color: var(--color-light-gray);
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section#proyecto h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section#proyecto p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+section#proyecto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color-dark-gray);
+    color: var(--color-light-gray);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
